@@ -37,10 +37,10 @@ body {
     padding: 1rem 1.5rem;
     font-size: 20px;
     background-color: rgb(227, 252, 204);
-    color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
 }
 .todo-input::placeholder {
-    color: rgb(168, 168, 168);
+    color: rgb(255, 0, 0);
 }
 .todos,
 .completed-todos,
