@@ -15,6 +15,9 @@ body {
     min-height: 100vh;
     background:url(bg.jpg) center;
     background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
 }
 .app {
     color: rgb(255, 255, 255);
@@ -48,6 +51,7 @@ body {
     display: flex;
     flex-direction: column;
     gap: .8rem;
+    flex-wrap: wrap;
 }
 .todo-item {
     background-color: rgb(255, 255, 255);
